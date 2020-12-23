@@ -1,0 +1,19 @@
+html {
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
+    width: 100%;
+}
+
+@import 'variables';
+@import 'top-section';
+@import 'mid-section';
+@import 'footer';
+@import 'media-queries'
